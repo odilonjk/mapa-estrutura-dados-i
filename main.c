@@ -131,9 +131,15 @@ void mostraMenu()
     printf("____________________\n\n");
 };
 
+//  Limpa a tela considerando o sistema operacional para executar o comando correto
 void limpaTela()
 {
+    #ifdef _WIN32
+    printf("cls");
+    #endif
+    #ifdef linux
     printf("\033c");
+    #endif
 };
 
 //  Função que captura a ação escolhida pelo usuário e retorna esta ação
