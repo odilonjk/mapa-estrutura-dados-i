@@ -7,7 +7,7 @@
  * Professor: Marcelo Lessa
  * 
  * O código fonte desta atividade também se encontra em meu github:
- * https://github.com/odilonjk/mapa-estrutura-senhas-i
+ * https://github.com/odilonjk/mapa-estrutura-dados-i
  */ 
 
 //  Constantes
